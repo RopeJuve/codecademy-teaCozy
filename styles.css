@@ -1,0 +1,153 @@
+
+html{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body{
+  align-items:center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin-left: 10px;
+    position: fixed;
+    top: 0;
+    background-color:black;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    width: 98%;
+    height: 69px;
+    z-index: 2;
+}
+
+.list{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.logo{
+    height: 50px;
+}
+
+.nav-op {
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+.hero{
+    display: flex;
+    overflow: hidden;
+    height: 700px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    align-items: center;
+}
+
+.hero div{
+    width: 100%;
+    text-align:center;
+    background-color:black;
+    align-items: center;
+}
+
+.katalog{
+    width: 1000px;
+    text-align:center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.row2{
+    display: flex;
+    margin-bottom: 50px;
+}
+.row1 .card-image{
+    margin: 10px;
+}
+.row2 .card-image{
+    margin: 10px;
+}
+.card-image {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.card-image img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-image h4{
+    text-align:center;
+    margin-top: 10px;
+}
+
+.location{
+    margin-top: 50px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    height: 500px;
+    width: 80%;
+    text-align: center;
+}
+
+.info-container{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.baner{
+    text-align:start;
+    margin-left: 20px;
+}
